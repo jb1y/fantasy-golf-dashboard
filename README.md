@@ -1,55 +1,56 @@
-Masters Fantasy Golf Dashboard
+# Masters Fantasy Golf Dashboard
 
 An interactive fantasy golf dashboard built in Tableau with a supporting Python data pipeline.
 
 The project was created to track a private fantasy league during the Masters Tournament, combining live leaderboard data, custom fantasy scoring, player scorecards, trend analysis, and available-player tracking in one dashboard.
 
-Project summary
+## Project Summary
 
 The dashboard allows users to:
-	•	follow the current fantasy league standings
-	•	track how each user’s score develops over time
-	•	inspect drafted golfers hole by hole
-	•	compare score breakdowns and bonus categories
-	•	monitor undrafted players during the tournament
 
-How it was built
+- Follow the current fantasy standings
+- Track how each user's score develops over time
+- Inspect drafted golfers hole by hole
+- Compare score breakdowns and bonus categories
+- Monitor undrafted players during the tournament
 
-The project consists of two parts:
-	•	Python for collecting, cleaning, and structuring tournament data
-	•	Tableau for the dashboard, calculations, interactivity, and visual design
+## How It Was Built
 
-The Python script pulls data from ESPN golf leaderboard and player summary pages, processes hole-by-hole results, applies custom fantasy logic, and exports CSV files that are used as data sources in Tableau.
+The project combines:
 
-Main features
-	•	fantasy leaderboard with score breakdown
-	•	user-specific golfer scorecards
-	•	trend graph for fantasy score development
-	•	KPI cards for best golfer, tie-break, and holes remaining
-	•	list of currently available players
-	•	interactive user selection and filtering
+- **Python** for collecting, cleaning, and structuring tournament data
+- **Tableau** for calculations, interactivity, and dashboard design
 
-Tools used
-	•	Python
-	•	pandas
-	•	requests
-	•	NumPy
-	•	Tableau
+The Python script pulls data from ESPN golf leaderboard and player summary pages, processes hole-by-hole results, applies custom fantasy scoring logic, and exports CSV files used as data sources in Tableau.
 
-Purpose
+## Main Features
 
-This project was built as a practical sports analytics / BI project combining:
-	•	real-world data collection
-	•	dashboard design
-	•	custom scoring logic
-	•	interactive visual analysis
+- Fantasy leaderboard with score breakdown
+- User-specific golfer scorecards
+- Trend graph for fantasy score development
+- KPI cards for best golfer, tie-break, and holes remaining
+- Available-player view
+- Interactive user selection and filtering
 
-It is also intended as a portfolio project to demonstrate applied skills in data processing, analytics, and dashboard development.
+## Tools Used
 
-Repository contents
+- Python
+- pandas
+- requests
+- NumPy
+- Tableau
 
-This repository contains:
-	•	project description
-	•	dashboard screenshots
-	•	supporting Python code
-	•	Tableau Public link after publication
+## Note on Screenshots
+
+The screenshots in this repository use data from the PGA Tour event the weekend before the Masters, which was used as a test event while building and validating the dashboard. The dashboard itself was designed for use during the Masters Tournament.
+
+## Purpose
+
+This project was built as a sports analytics / BI portfolio project combining real-world data collection, custom scoring logic, and interactive dashboard development.
+
+## Repository Contents
+
+- Project description
+- Dashboard screenshots
+- Supporting Python code
+- Tableau Public link (after publication)
