@@ -40,17 +40,12 @@ The Python script pulls data from ESPN golf leaderboard and player summary pages
 - NumPy
 - Tableau
 
-## Note on Screenshots
-
-The screenshots in this repository use data from the PGA Tour event the weekend before the Masters, which was used as a test event while building and validating the dashboard. The dashboard itself was designed for use during the Masters Tournament.
-
 ## Purpose
 
-This project was built as a sports analytics / BI portfolio project combining real-world data collection, custom scoring logic, and interactive dashboard development.
+This project was built as a sports analytics / BI portfolio project combining real-world data collection, custom scoring logic, and interactive dashboard development. The dashobard serves as a scorekeper for the fantasy tournament but also as a project to showcase to emplyers.
 
 ## Repository Contents
 
 - Project description
 - Dashboard screenshots
-- Supporting Python code
-- Tableau Public link (after publication)
+- Tableau Public link
